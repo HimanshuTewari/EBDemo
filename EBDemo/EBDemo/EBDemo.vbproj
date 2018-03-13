@@ -68,6 +68,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include=".ebextension\" />
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
