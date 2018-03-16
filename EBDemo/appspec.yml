@@ -2,4 +2,8 @@ version: 0.0
 os: windows
 files:
   - source: \
-    destination: c:\inetpub\wwwroot
+    destination: C:\EBDemo\
+hooks:
+  BeforeInstall:
+    - location: \before-install.bat
+      timeout: 900
