@@ -6,7 +6,7 @@
     End Sub
 
     Protected Sub btn1_Click(sender As Object, e As EventArgs)
-        lbltask1.Visible = True
+        lbltask1.Visible = False
 
     End Sub
 End Class
